@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+    background-color: beige;
+}
+.contaner2{
+    width: 380px;
+    height: 400px;  
+    margin-top: -90px;  
+}
+.hedarrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   position: relative;
+   top: 15px;
+    
+}
+.hedarrow p{
+
+    width: 150px;
+    height: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+background-color: white;
+text-align: center;
+padding-top: 7px;
+font-size: 20px;
+display: flex ;
+align-items: center;
+justify-content: center;
+
+}
+.hedarrow p svg{
+    width: 20px;
+    padding-right: 10px;
+}
+
+
+
+
+.playgame{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+border-radius: 50px;
+    
+}
+.playgame .btnxo{
+    width: 100%;
+    height: 95px;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 50px;
+
+
+}
+
+.playgame  .butntaht{
+    width: 128px;
+    height: 95px;
+    cursor: pointer;
+background-color: rgb(244, 238, 238);
+border: 1px solid black;
+border-left: none;
+text-align: center;
+font-size: 70PX;
+}
+.playgame  .butntaht svg{
+    width: 99PX;
+}
+
+.playgame .butntaht:hover{
+    background-color: rgb(180, 176, 169);
+}
+
+
+
+.inputgameplay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+.inputgameplay p{
+    background-color: azure;
+    width: 160px;
+    text-align: center;
+    padding-top: 5px;
+    border: none;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+.inputgameplay  #firstxo{
+    background-color: aqua;
+}
+.inputgameplay  #lastxo{
+    background-color: rgb(255, 174, 0);
+}
+
+
+#btnsignplay{
+    margin-top: 0px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgb(61, 68, 73);
+    height: 32px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+    color: azure;
+}
+#btnsignplay:hover{
+    background-color: rgb(89, 124, 132);
+
+}
+
+
+
+
+
+.page2 .wingame{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+height: 250PX;
+display: none;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: rgba(128, 128, 128, 0.659);
+}
+.page2 .btnwin{
+    display: flex;
+  
+
+}
+
+.page2 .wingame button{
+    width: 140px;
+margin-left: 15px;
+    margin-top: -19px;
+    border-radius: 30px;
+    background-color: rgb(61, 68, 73);
+    height: 42px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+    color: azure;
+}
+#New-game{
+    background-color: rgb(22, 148, 238);
+
+}
+#New-game:hover{
+    background-color: rgb(92, 176, 237);
+
+}
+
+#winxogame{
+    color: blue;
+    font-size: 50px;
+    margin-top: -10px;
+
+}
